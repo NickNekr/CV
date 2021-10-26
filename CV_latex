@@ -1,7 +1,7 @@
 \documentclass{resume}
 \usepackage[hidelinks]{hyperref}
 \usepackage{lipsum}
-
+\usepackage{ amsmath }
 \name{Nikolay Nekrasov}
 \contact{\href{tel:+79208110295}{+79208110295}}
 \contact{\href{mailto:nnnekrasov@edu.hse.ru}{nnnekrasov@edu.hse.ru}}
@@ -15,20 +15,37 @@
 
 \begin{ResumeSection}{education}
     \begin{ResumeSubsection}{org={National Research University Higher School of Economics},position={Faculty of Computer Science
-}}
+},duration=2021-$\dotsc$}
         \begin{itemize}
             \item First-year Bachelor's student majoring in Applied Mathematics and Computer Science
         \end{itemize}
     \end{ResumeSubsection}
-    \begin{ResumeSubsection}{org={Additional education}}\\
-    Correspondence school of physics and technology at MPTI
+     \begin{ResumeSubsection}{org={Mozhaisky Military Space Academy},position={Faculty of Automated control systems
+},duration=2018-2020}
+        \begin{itemize}
+            \item Complete the third year of the specialty Computer Science and Computer Engineering
+        \end{itemize}
+    \end{ResumeSubsection}
+    \begin{ResumeSubsection}{org={Additional education},position={
+    Correspondence school of physics and technology at MPTI},duration=2014 - 2017}
+    \begin{itemize}
+        \item Mathematics
+        \item Physics
+    \end{itemize}
+    \end{ResumeSubsection}
+    \begin{ResumeSubsection}{position={
+    Unified State Exam},duration=2021}
+    \begin{itemize}
+        \item Mathematics 92 out of 100 
+        \item Informatics 80 out of 100 
+    \end{itemize}
     \end{ResumeSubsection}
 \end{ResumeSection}
 
-\begin{ResumeSection}{projects}
+\begin{ResumeSection}{personal projects}
     \begin{itemize}
-        \item \href{https://github.com/NickNekr/Telegram_bot_and_ML.git}{\textbf{https://github.com/NickNekr/Telegram\_bot\_and\_ML.git}} - data collection using parsing and weather prediction based on them (Python)
-        \item \href{https://github.com/NickNekr/MATRIX.git}{\textbf{https://github.com/NickNekr/MATRIX.git}} - matrix object (OOP Python)
+        \item \href{https://github.com/NickNekr/Telegram_bot_and_ML.git}{\textbf{https://github.com/NickNekr/Telegram\_bot\_and\_ML.git}} - data collection using parsing and weather prediction based on them (GBR, LR, GridSearchCV, BeautifulSoup). 140 loc.
+        \item \href{https://github.com/NickNekr/MATRIX.git}{\textbf{https://github.com/NickNekr/MATRIX.git}} - matrix object (OOP Python). 100 loc.
     \end{itemize}
 \end{ResumeSection}
 
@@ -37,18 +54,10 @@
 \begin{ResumeSection}{Technical Skills}
 \begin{ResumeSubsection}{org={Programming language}}
     \begin{itemize}
-        \item Python
-        \item C++
-        \item Some experience with Kotlin
+        \item Proficient Python
+        \item Some experience with C++
     \end{itemize}
 \end{ResumeSubsection}
-\begin{ResumeSubsection}{org={Operating systems}}
-            \begin{itemize}
-        \item Windows
-        \item Linux
-        \item Mac OS
-           \end{itemize}
- \end{ResumeSubsection}
 \end{ResumeSection}
 \begin{ResumeSection}{Additional Skills}
 \begin{ResumeSubsection}{org={Language Skills}}
@@ -62,17 +71,9 @@
 
 \begin{ResumeSection}{Awards}
     \begin{itemize}
-        \item Took second place in the programming competition among first-year students
-        \item Took third place in the physics competition among first-year students
+        \item Took second place in the programming competition among first-year students of Military Academy
+        \item Took third place in the physics competition among first-year students of Military Academy
         \item My team won first place in the student physics Olympiad in St. Petersburg
-    \end{itemize}
-\end{ResumeSection}
-\begin{ResumeSection}{Personal Interests}
-    \begin{itemize}
-        \item \textbf{Algorithms}
-        \item \textbf{Backend development}
-        \item \textbf{Mobile development}
-        \item \textbf{Machine learning}
     \end{itemize}
 \end{ResumeSection}
 \end{document}
