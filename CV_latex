@@ -1,0 +1,78 @@
+\documentclass{resume}
+\usepackage[hidelinks]{hyperref}
+\usepackage{lipsum}
+
+\name{Nikolay Nekrasov}
+\contact{\href{tel:+79208110295}{+79208110295}}
+\contact{\href{mailto:nnnekrasov@edu.hse.ru}{nnnekrasov@edu.hse.ru}}
+\contact{\href{https://github.com/NickNekr}{github.com/NickNekr}}
+
+\begin{document}
+\makeheader
+
+
+
+
+\begin{ResumeSection}{education}
+    \begin{ResumeSubsection}{org={National Research University Higher School of Economics},position={Faculty of Computer Science
+}}
+        \begin{itemize}
+            \item First-year Bachelor's student majoring in Applied Mathematics and Computer Science
+        \end{itemize}
+    \end{ResumeSubsection}
+    \begin{ResumeSubsection}{org={Additional education}}\\
+    Correspondence school of physics and technology at MPTI
+    \end{ResumeSubsection}
+\end{ResumeSection}
+
+\begin{ResumeSection}{projects}
+    \begin{itemize}
+        \item \href{https://github.com/NickNekr/Telegram_bot_and_ML.git}{\textbf{https://github.com/NickNekr/Telegram\_bot\_and\_ML.git}} - data collection using parsing and weather prediction based on them (Python)
+        \item \href{https://github.com/NickNekr/MATRIX.git}{\textbf{https://github.com/NickNekr/MATRIX.git}} - matrix object (OOP Python)
+    \end{itemize}
+\end{ResumeSection}
+
+
+
+\begin{ResumeSection}{Technical Skills}
+\begin{ResumeSubsection}{org={Programming language}}
+    \begin{itemize}
+        \item Python
+        \item C++
+        \item Some experience with Kotlin
+    \end{itemize}
+\end{ResumeSubsection}
+\begin{ResumeSubsection}{org={Operating systems}}
+            \begin{itemize}
+        \item Windows
+        \item Linux
+        \item Mac OS
+           \end{itemize}
+ \end{ResumeSubsection}
+\end{ResumeSection}
+\begin{ResumeSection}{Additional Skills}
+\begin{ResumeSubsection}{org={Language Skills}}
+    \begin{itemize}
+        \item Russian as native language
+        \item Fluent English
+    \end{itemize}
+    \end{ResumeSubsection}
+\end{ResumeSection}
+
+
+\begin{ResumeSection}{Awards}
+    \begin{itemize}
+        \item Took second place in the programming competition among first-year students
+        \item Took third place in the physics competition among first-year students
+        \item My team won first place in the student physics Olympiad in St. Petersburg
+    \end{itemize}
+\end{ResumeSection}
+\begin{ResumeSection}{Personal Interests}
+    \begin{itemize}
+        \item \textbf{Algorithms}
+        \item \textbf{Backend development}
+        \item \textbf{Mobile development}
+        \item \textbf{Machine learning}
+    \end{itemize}
+\end{ResumeSection}
+\end{document}
